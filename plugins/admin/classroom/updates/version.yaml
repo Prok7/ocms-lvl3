@@ -1,0 +1,4 @@
+1.0.1: 
+    - First version of ClassRoom
+    - create_students_table.php
+    - create_arrivals_table.php

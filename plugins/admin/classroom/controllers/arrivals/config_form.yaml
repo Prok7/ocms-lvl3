@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: Arrival
+
+# Model Form Field configuration
+form: $/admin/classroom/models/arrival/fields.yaml
+
+# Model Class name
+modelClass: Admin\ClassRoom\Models\Arrival
+
+# Default redirect location
+defaultRedirect: admin/classroom/arrivals
+
+# Create page
+create:
+    title: backend::lang.form.create_title
+    redirect: admin/classroom/arrivals/update/:id
+    redirectClose: admin/classroom/arrivals
+
+# Update page
+update:
+    title: backend::lang.form.update_title
+    redirect: admin/classroom/arrivals
+    redirectClose: admin/classroom/arrivals
+
+# Preview page
+preview:
+    title: backend::lang.form.preview_title
